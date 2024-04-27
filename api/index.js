@@ -8,8 +8,6 @@ mongoose.connect(process.env.MONGO).then ( () => {
 }).catch((err) => {
   console.log(err);
 });
-  
-
 
 const app = express();
 
